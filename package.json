@@ -1,0 +1,22 @@
+{
+  "name": "page_fonts",
+  "version": "1.0.0",
+  "description": "Web Font Style Validation Framework using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/font-validation.js",
+    "validate": "node tests/font-validation.js"
+  },
+  "keywords": [
+    "playwright",
+    "font-validation",
+    "automation"
+  ],
+  "author": "Rakula (ID: 3222)",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "playwright": "^1.52.0"
+  }
+}
